@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/grasehotspot.org",
   siteMetadata: {
     siteTitle: `Grase Hotspot`,
     defaultTitle: `Grase Hotspot`,
@@ -46,7 +47,7 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/grase/grasehotspot-website`,
+        repositoryUrl: `https://github.com/GraseHotspot/grasehotspot.org`,
         baseDir: ``,
       },
     },
