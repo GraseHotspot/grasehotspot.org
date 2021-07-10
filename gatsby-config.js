@@ -6,7 +6,7 @@ module.exports = {
     siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
     siteUrl: `https://grasehotspot.org`,
     siteAuthor: `@rocketseat`,
-    siteImage: `/banner.png`,
+    siteImage: `/grase_512.png`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
     basePath: `/`,
@@ -72,15 +72,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
+        
         siteUrl: `https://grasehotspot.org`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-sitemap`,
-    //   options: {
-    //     exclude: [`/secret`],
-    //   },
-    // },
     `gatsby-plugin-offline`,
   ],
 };

@@ -1,5 +1,5 @@
 ---
-title: 'Notice &#8211; Removal of VPN Remote access'
+title: 'Notice & Removal of VPN Remote access'
 date: '2020-06-06T16:16:44+10:00'
 status: publish
 permalink: /2020/06/06/notice-removal-of-vpn-remote-access
