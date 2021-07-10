@@ -1,7 +1,11 @@
 # Sidebar navigation
 
-- label: 'About'
-  link: '/about'
+- label: Grase Hotspot
+  items:
+  - label: 'About'
+    link: '/about'
+  - label: 'Github'
+    link: https://github.com/GraseHotspot/grase-www-portal
 
 - label: Support
   items:
