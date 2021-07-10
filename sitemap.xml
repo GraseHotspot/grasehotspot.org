@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://grasehotspot.org/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://grasehotspot.org/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/contact</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://grasehotspot.org/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/documentation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/support</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/documentation/chillispot-config</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -32,16 +32,11 @@
 <url> <loc>https://grasehotspot.org/2014/05/20/new-login-coming-soon</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/2014/05/20/new-repository-signing-key</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/2015/05/26/progressing-towards-next-release</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://grasehotspot.org/2016/01/10/3-8-0-released</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/2015/08/01/3-8-0-rc-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/2017/05/28/expired-gpg-key</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://grasehotspot.org/2016/01/10/3-8-0-released</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/2020/06/06/notice-removal-of-vpn-remote-access</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/2021/07/02/project-hiatus</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://grasehotspot.org/faq</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://grasehotspot.org/usage/creating-docs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://grasehotspot.org/usage/navigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://grasehotspot.org/usage/shadowing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://grasehotspot.org/getting-started</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://grasehotspot.org/pages</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
