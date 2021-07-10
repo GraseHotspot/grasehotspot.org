@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-9b5384f03228fc906699.js"
+    "url": "webpack-runtime-32c21c00813f83c85306.js"
   },
   {
     "url": "framework-142d678a22ed4f706a7c.js"
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "f0e45107-337e564e062e8d938b3f.js"
   },
   {
-    "url": "app-95be69516482c0575bd6.js"
+    "url": "app-2612269ce18a85244828.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "3502b37924bc966eaa61ac8d66a2be88"
+    "revision": "fdf7e91506058f3010d2c3d84c8cbdd1"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-f29fa27de572d935bcf9.js"
@@ -51,14 +51,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "527c72b8f43bfb9f400b55151edc8a60"
+    "revision": "1f950da461f272170f7b569840189d15"
   },
   {
     "url": "polyfill-660b5f01e958e482f2d0.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "e99995272f3898adda6980ac6b90cc64"
+    "revision": "f2d0be133c4128e895f29bc80bcf2d31"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -145,12 +145,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/grasehotspot.org`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-95be69516482c0575bd6.js`))) {
+  if (!resources || !(await caches.match(`/grasehotspot.org/app-2612269ce18a85244828.js`))) {
     return await fetch(event.request)
   }
 
@@ -163,7 +163,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/grasehotspot.org/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
