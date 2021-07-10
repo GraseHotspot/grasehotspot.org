@@ -1,5 +1,5 @@
 ---
-title: 'iptables rules'
+title: 'Iptables rules'
 date: '2011-04-02T13:34:28+10:00'
 status: publish
 permalink: /documentation/iptables-rules

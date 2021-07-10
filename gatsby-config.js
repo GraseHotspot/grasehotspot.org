@@ -26,10 +26,12 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          'gatsby-remark-check-links',
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
+              withWebp: true,
             },
           },
           {
@@ -49,17 +51,6 @@ module.exports = {
         docsPath: `src/docs`,
         repositoryUrl: `https://github.com/GraseHotspot/grasehotspot.org`,
         baseDir: ``,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        display: `standalone`,
-        icon: `static/favicon.png`,
       },
     },
     `gatsby-plugin-sitemap`,
