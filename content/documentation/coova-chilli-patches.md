@@ -11,6 +11,9 @@ id: 50
 Differences between Vanilla Coova Chilli and GRASE Coova Chilli
 ---------------------------------------------------------------
 
+(Later versions we don't apply all these patches, see https://github.com/GraseHotspot/coova-chilli/tree/grase-1.5.0 for our branch where we build a custom build)
+
+
 I only apply a few patches to coova chilli for packaging with the GRASE Hotspot.
 
 The changes are:
@@ -24,8 +27,8 @@ The changes are:
 
 Patch against 1.2.6
 
-```
-<pre class="dontquote prettyprint">Index: grase-coova-chilli/src/chilli.c
+```diff
+Index: grase-coova-chilli/src/chilli.c
 ===================================================================
 --- grase-coova-chilli.orig/src/chilli.c        2010-12-06 13:20:52.878112452 +1000
 +++ grase-coova-chilli/src/chilli.c     2010-12-06 13:24:30.489110146 +1000

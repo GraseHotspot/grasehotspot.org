@@ -8,4 +8,4 @@ excerpt: ''
 type: page
 id: 198
 ---
-Free support is available from the [mailing list](https://grasehotspot.org/mailing-list/ "Mailing List").
+Free support is available from the [mailing list](/support/mailing-list/ "Mailing List").

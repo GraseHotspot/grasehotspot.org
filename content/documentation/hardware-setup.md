@@ -10,7 +10,7 @@ id: 103
 ---
 Some people are having problems with the hardware setup, so hopefully this will assist.
 
-[![](../../uploads/2011/11/Hotspot_Hardware_Setup.png "Hotspot_Hardware_Setup")](https://grasehotspot.org/wp-content/uploads/2011/11/Hotspot_Hardware_Setup.png)
+!["Hotspot_Hardware_Setup"](../uploads/2011/11/Hotspot_Hardware_Setup.png)
 
 First, you need a computer that can run Ubuntu or Debian, 32bit or 64bit. Currently my custom packages aren’t compiled for anything other than standard x86 hardware, but if you wish to compile coovachilli for arm for example, then you’ll be able to run the rest of the software too (hopefully).
 

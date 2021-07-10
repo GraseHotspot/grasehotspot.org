@@ -27,9 +27,9 @@ Since that release things have moved very fast with more development happening f
 
 As you can see in this image, the traffic to the website has been on the increase which shows that we are getting more and more exposure! (The drop at the end is because it’s the start of a new week when I saved this graph).
 
-[![](../../../../uploads/2011/06/hotspotgrowth.png "Hotspot Growth")](https://grasehotspot.org/wp-content/uploads/2011/06/hotspotgrowth.png)
+![](../../../uploads/2011/06/hotspotgrowth.png "Hotspot Growth")
 
-To assist with the growth of the community, I’ve now setup a mailing list for users and developers to all participate in. This will enable any email support that is occurring to benefit the entire community, especially when the same problem is experienced by a few people. I’d ask that support requests are directed to the mailing list now instead of directly to me. [https://lists.sourceforge.net/lists/listinfo/grase-hotspot](https://lists.sourceforge.net/lists/listinfo/grase-hotspot "GRASE Hotspot Mailing list")
+To assist with the growth of the community, I’ve now setup a mailing list for users and developers to all participate in. This will enable any email support that is occurring to benefit the entire community, especially when the same problem is experienced by a few people. I’d ask that support requests are directed to the mailing list now instead of directly to me. [GRASE Hotspot Mailing list](/support/mailing-list)
 
 For those who are wondering what is happening with the hotspot currently, here is what I am working on. Recurring limits, for example allowing a user to have 1hr per day. We are also hoping to have recurring data limits like 200Mb per day, however due to limitations in other software we rely on, it is not possible to guarantee exact limits, so the implementation will be to loosely enforce the data limits. I’m also going to start working on customisation of the login pages so that each location can display a more unique login page.
 

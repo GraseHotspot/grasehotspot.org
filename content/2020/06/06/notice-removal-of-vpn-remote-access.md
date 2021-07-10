@@ -21,8 +21,8 @@ For a number of reasons, and the availability of alternative options, we will be
 
 Please remove the config package by running:
 
-```
-<pre class="wp-block-preformatted">sudo apt remove --purge grase-conf-openvpn
+```shell
+sudo apt remove --purge grase-conf-openvpn
 ```
 
 Alternatives include:

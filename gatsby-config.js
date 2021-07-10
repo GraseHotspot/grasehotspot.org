@@ -20,11 +20,18 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-        {
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+          {
           resolve: "gatsby-remark-relative-links",
           options: {
             domainRegex: /http[s]*:\/\/[www.]*grasehotspot\.org[/]?/,
@@ -39,8 +46,8 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/rocketseat/gatsby-themes`,
-        baseDir: `examples/gatsby-theme-docs`,
+        repositoryUrl: `https://github.com/grase/grasehotspot-website`,
+        baseDir: ``,
       },
     },
     {

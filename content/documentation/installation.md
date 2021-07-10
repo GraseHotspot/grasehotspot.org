@@ -11,7 +11,7 @@ id: 9
 Basic install instructions
 --------------------------
 
-*if you are interested in using the bleeding edge version as it’s developed, see [ nightly builds for more information](https://grasehotspot.org/documentation/nightly-builds/ "Nightly Builds")*
+*if you are interested in using the bleeding edge version as it’s developed, see [ nightly builds for more information](/documentation/v4-nightly-builds/ "Nightly Builds")*
 
 Install Ubuntu Server to computer (the guide is for an older version of Ubuntu, new installs should be on at least 14.04 or Debian 7. The installation guide is still somewhat useful as a guide). [UbuntuServerInstallation](https://grasehotspot.org/documentation/ubuntu-server-installation/ "Ubuntu Server Installation") (Ubuntu 14.04 (LTS) is tested and currently supported. Debian 7 is also currently supported)
 
@@ -20,26 +20,26 @@ If you didn’t follow the Ubuntu Server install instructions, or have installed
 When it boots you will be presented with a prompt. Login with the username and password you set. Download latest grase-repo package from <http://packages.grasehotspot.org/pool/main/g/grase-repo/>  
 e.g. (Update to point to the latest grase-repo package at the above link)
 
-```
-<pre class="prettyprint">$ wget http://packages.grasehotspot.org/pool/main/g/grase-repo/grase-repo_1.7_all.deb
+```shell
+$ wget http://packages.grasehotspot.org/pool/main/g/grase-repo/grase-repo_1.7_all.deb
 ```
 
 install the package
 
-```
-<pre class="prettyprint">$ sudo dpkg -i grase-repo_1.7_all.deb
+```shell
+$ sudo dpkg -i grase-repo_1.7_all.deb
 ```
 
 Update the repository
 
-```
-<pre class="prettyprint">$ sudo apt-get update
+```shell
+$ sudo apt-get update
 ```
 
 Then install the components. Currently for a full system, the following command should suffice
 
-```
-<pre class="prettyprint">$ sudo apt-get install grase-www-portal grase-conf-freeradius
+```shell
+$ sudo apt-get install grase-www-portal grase-conf-freeradius
 ```
 
 This will proceed to download all the dependencies as well and install them. It will ask a few questions which are needed to finish setting it up. See the below sections for answering these questions
@@ -66,6 +66,5 @@ This should have installed the base system, and submit the systems key to a cent
 You should now be able to access the web interface at <http://10.1.0.1/grase/radmin> (from the LAN side). The LAN side is the network interface you are running your WiFi Access Point off.  
 Default username is ***admin*** and password is ***hotspotadmin***
 
-<span style="text-decoration: underline;">*<span style="color: #ff0000;">**Please post support requests to the [mailing list](https://grasehotspot.org/support/mailing-list/ "Mailing List"), and not as comments below. This way the whole community can assist with answering your questions.  
-Comments are CLOSED!** </span>*</span>
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Please post support requests to the [mailing list](https://grasehotspot.org/support/mailing-list/ "Mailing List"), this way the whole community can assist with answering your questions.**
+

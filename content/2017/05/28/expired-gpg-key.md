@@ -17,15 +17,15 @@ Sometimes we don’t get things done in the timeframe we expect. This can lead t
 If you are getting the following error
 
 ```
-<pre class="prettyprint">W: GPG error: http://packages.grasehotspot.org purewhite InRelease: The following signatures were invalid: KEYEXPIRED 1495184631
+W: GPG error: http://packages.grasehotspot.org purewhite InRelease: The following signatures were invalid: KEYEXPIRED 1495184631
 ```
 
 Then the GPG key you have has expired. But that’s ok, because I’ve extended the expiry, and you just need to run a few commands to get your computer to recognise the new expiry date!
 
 Run the following commands and you’ll be good to go.
 
-```
-<pre class="prettyprint">wget https://github.com/GraseHotspot/grase-repo/raw/master/key/grase.hotspot.2017.gpg
+```shell
+wget https://github.com/GraseHotspot/grase-repo/raw/master/key/grase.hotspot.2017.gpg
 sudo cp grase.hotspot.2017.gpg /etc/apt/trusted.gpg.d/
 ```
 

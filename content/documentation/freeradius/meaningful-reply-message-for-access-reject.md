@@ -8,14 +8,12 @@ excerpt: ''
 type: page
 id: 64
 ---
-So the indepth post is at <http://tim.purewhite.id.au/2011/04/coova-chilli-freeradius-reply-message/>
+See the indepth post at <http://tim.purewhite.id.au/2011/04/coova-chilli-freeradius-reply-message/>
 
 Basically, FreeRadius sql and sql\_counter modules don’t give the most meaningful Reply-Message (if any). Here are snippits of code that bring more meaningful messages.
 
-/etc/freeradius/sites-available/default
-
-```
-<pre class="dontquote prettyprint" lang="ini">authorize {
+```ini title=/etc/freeradius/sites-available/default
+authorize {
 	preprocess
 	chap
 	mschap

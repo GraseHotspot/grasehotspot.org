@@ -19,8 +19,17 @@ Firstly, you need an Administrator user in your radcheck tables. For example, we
 
 Our radcheck table will look something like the following
 
-<table border="1" cellpadding="4" cellspacing="0"><tbody><tr><th scope="col">Username</th><th>Attribute</th><th>OP</th><th>Value</th></tr><tr><td>radmin</td><td>Password</td><td>:=</td><td>foobar</td></tr><tr><td>radmin</td><td>Service-Type</td><td>==</td><td>Administrative-User</td></tr></tbody></table>
+| Username | Attribute    | OP  | Value               |
+| -------- | ------------ | --- | ------------------- |
+| radmin   | Password     | :=  | foobar              |
+| radmin   | Service-Type | \== | Administrative-User |
 
 Our radreply table can now contain attributes that will configure the hotspot. It might look something like this.
 
-<table border="1" cellpadding="4" cellspacing="0"><tbody><tr><th scope="col">Username</th><th>Attribute</th><th>OP</th><th>Value</th></tr><tr><td>radmin</td><td>ChilliSpot-Config</td><td>+=</td><td>macpasswd=apples</td></tr><tr><td>radmin</td><td>ChilliSpot-Config</td><td>+=</td><td>uamallowed=mysite.com</td></tr><tr><td>radmin</td><td>ChilliSpot-Config</td><td>+=</td><td>uamallowed=sistersite.com</td></tr><tr><td>radmin</td><td>ChilliSpot-Config</td><td>+=</td><td>interval=600</td></tr></tbody></table>
+
+| Username | Attribute         | OP | Value                     |
+| -------- | ----------------- | -- | ------------------------- |
+| radmin   | ChilliSpot-Config | += | macpasswd=apples          |
+| radmin   | ChilliSpot-Config | += | uamallowed=mysite.com     |
+| radmin   | ChilliSpot-Config | += | uamallowed=sistersite.com |
+| radmin   | ChilliSpot-Config | += | interval=600              |

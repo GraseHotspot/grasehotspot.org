@@ -1,20 +1,24 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
-- label: Usage
+- label: 'About'
+  link: '/about'
+
+- label: Support
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
-- label: More
+    - label: Mailing List
+      link: '/support/mailing-list'
+
+- label: Docs
   items:
-    - label: FAQ
-      link: /faq
-    - label: 'Github'
-      link: https://github.com/rocketseat/gatsby-themes
+    - label: Hardware Setup
+      link: '/documentation/hardware-setup'
+    - label: Ubuntu Server Installation
+      link: '/documentation/ubuntu-server-installation'
+    - label: Hotspot Installation
+      link: '/documentation/installation'
+    - label: Packages
+      link: '/documentation/packages'
+    - label: Known Issues
+      link: '/documentation/known-issues'
+    - label: V4 Nightly Build
+      link: '/documentation/v4-nightly-builds'

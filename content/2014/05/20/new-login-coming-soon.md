@@ -24,6 +24,6 @@ Below are 2 screenshots of the current work in progress, showing what it looks l
 
 Please direct feedback to the [mailing list.](https://grasehotspot.org/support/mailing-list/ "Mailing List")
 
-[![Demo Wireless Hotspot   Login (1)](../../../../uploads/2014/05/Demo-Wireless-Hotspot-Login-1.png)](https://grasehotspot.org/wp-content/uploads/2014/05/Demo-Wireless-Hotspot-Login-1.png)
+[![Demo Wireless Hotspot   Login (1)](../../../uploads/2014/05/Demo-Wireless-Hotspot-Login-1.png)](https://grasehotspot.org/wp-content/uploads/2014/05/Demo-Wireless-Hotspot-Login-1.png)
 
-[![Demo Wireless Hotspot   Login](../../../../uploads/2014/05/Demo-Wireless-Hotspot-Login.png)](https://grasehotspot.org/wp-content/uploads/2014/05/Demo-Wireless-Hotspot-Login.png)
+[![Demo Wireless Hotspot   Login](../../../uploads/2014/05/Demo-Wireless-Hotspot-Login.png)](https://grasehotspot.org/wp-content/uploads/2014/05/Demo-Wireless-Hotspot-Login.png)
