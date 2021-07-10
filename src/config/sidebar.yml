@@ -1,6 +1,6 @@
 # Sidebar navigation
 
-- label: Grase Hotspot
+- label: GRASE Hotspot
   items:
   - label: 'About'
     link: '/about'
@@ -26,6 +26,8 @@
       link: '/documentation/known-issues'
     - label: V4 Nightly Build
       link: '/documentation/v4-nightly-builds'
+    - label: FAQ
+      link: '/documentation/faq'
 
 - label: More
   items:
