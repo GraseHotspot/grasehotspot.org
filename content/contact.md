@@ -8,7 +8,7 @@ excerpt: ''
 type: page
 id: 73
 ---
-THe project is currently in Hiatus, the [Github Issues](https://github.com/GraseHotspot/grase-www-portal/issues) tracker is currently closed.
+The project is currently in Hiatus, the [Github Issues](https://github.com/GraseHotspot/grase-www-portal/issues) tracker is currently closed.
 
 **If you are having a problem with the Hotspot, please sign up to our [mailing list](/support/mailing-list/ "Mailing List") and post your support request there.**
 
