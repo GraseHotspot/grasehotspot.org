@@ -17,8 +17,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-matomo',
       options: {
-        siteId: '99999',
-        matomoUrl: 'https://piwik.whiteitsolutions.com.au/',
+        siteId: '9',
+        matomoUrl: 'https://piwik.whiteitsolutions.com.au',
         siteUrl: 'https://grasehotspot.org'
       }
     },
