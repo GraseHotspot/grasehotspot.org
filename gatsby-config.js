@@ -1,12 +1,12 @@
 module.exports = {
-  pathPrefix: "/grasehotspot.org",
+  //pathPrefix: "/grasehotspot.org",
   siteMetadata: {
     siteTitle: `Grase Hotspot`,
     defaultTitle: `Grase Hotspot`,
     siteTitleShort: `Grase Hotspot`,
     siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
     siteUrl: `https://grasehotspot.org`,
-    siteAuthor: `@rocketseat`,
+    siteAuthor: `@timwhite88`,
     siteImage: `/grase_512.png`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
