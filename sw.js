@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "f0e45107-337e564e062e8d938b3f.js"
   },
   {
-    "url": "app-6d6ee3800d346fb29da4.js"
+    "url": "app-630c86ab32177d1cc08b.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "fe45d7c1dc2510a962b38b5219b1654b"
+    "revision": "952f567973b5e669dfe864f76911b592"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-f29fa27de572d935bcf9.js"
@@ -51,7 +51,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "4f57be9a1ddbd1b87284e41e6be0e18f"
+    "revision": "bea715b618bf215d4d7b232570efbf21"
   },
   {
     "url": "polyfill-660b5f01e958e482f2d0.js"
@@ -146,7 +146,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/grasehotspot.org/app-6d6ee3800d346fb29da4.js`))) {
+  if (!resources || !(await caches.match(`/grasehotspot.org/app-630c86ab32177d1cc08b.js`))) {
     return await fetch(event.request)
   }
 
