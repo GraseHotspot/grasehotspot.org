@@ -12,6 +12,7 @@
     "gatsby-plugin-canonical-urls": "^3.0.0",
     "gatsby-plugin-google-analytics": "^3.0.0",
     "gatsby-plugin-manifest": "^3.0.0",
+    "gatsby-plugin-matomo": "^0.10.0",
     "gatsby-plugin-offline": "^4.0.0",
     "gatsby-plugin-remove-trailing-slashes": "^3.0.0",
     "gatsby-plugin-sharp": "^3.9.0",

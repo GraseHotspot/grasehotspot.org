@@ -15,6 +15,14 @@ module.exports = {
   flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '99999',
+        matomoUrl: 'https://piwik.whiteitsolutions.com.au/',
+        siteUrl: 'https://grasehotspot.org'
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
@@ -68,6 +76,6 @@ module.exports = {
         siteUrl: `https://grasehotspot.org`,
       },
     },
-    `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`
   ],
 };
