@@ -13,6 +13,6 @@ The GRASE Hotspot is a project that glues individual components together easily,
 The GRASE Hotspot takes all the hard work out of keeping the individual components glued together, and provides a nice simple interface to manage the Hotspot and it’s users. As components change, the project is updated so the glue stays together. For a tech savy users who wants to do the gluing together themselves, they can take just the web interface component of the project, and manually do the rest. This modularity of the project ensures that the glue layer is simply a then glue layer, and not a thick gluggy mess forcing things to stay together. For example, a different RADIUS server could be used instead of FreeRadius, or (eventually) a different SQL server could be used.
 
 Factoids  
-<script type='text/javascript' src='https://www.openhub.net/p/grase/widgets/project_factoids?format=js'></script>
+<iframe src='https://www.openhub.net/p/grase/widgets/project_factoids' scrolling='no' marginHeight='0' marginWidth='0' style='height: 175px; width: 350px; border: none'></iframe>
 
 Keywords: free, pay-per-use, tickets, wifi, hotspot, management, solution, billing, access point, filtering, wireless, router, gateway, administration, kiosk, internet cafe, time limit, data limit, bandwidth, captive portal, walled garden
