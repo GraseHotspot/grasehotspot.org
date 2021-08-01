@@ -4,7 +4,7 @@ module.exports = {
     siteTitle: `Grase Hotspot`,
     defaultTitle: `Grase Hotspot`,
     siteTitleShort: `Grase Hotspot`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
+    siteDescription: `Grase Hotspot - Simple Hotspot Solution`,
     siteUrl: `https://grasehotspot.org`,
     siteAuthor: `@timwhite88`,
     siteImage: `/grase_512.png`,
