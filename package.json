@@ -35,10 +35,10 @@
     "gatsby-starter"
   ],
   "scripts": {
-    "build": "gatsby build",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public"
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby build",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby develop",
+    "serve": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby serve",
+    "clean": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby clean",
+    "deploy": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby build && gh-pages -d public"
   }
 }
