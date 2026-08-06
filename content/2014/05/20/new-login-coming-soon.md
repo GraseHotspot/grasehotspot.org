@@ -16,7 +16,7 @@ tag:
     - news
 post_format: []
 ---
-Some I’ve been working on totally rebuilding the login page. The focus has been on Mobile First. See [http://en.wikipedia.org/wiki/Responsive\_web\_design#Mobile\_first.2C\_unobtrusive\_JavaScript.2C\_and\_progressive\_enhancement](http://en.wikipedia.org/wiki/Responsive_web_design#Mobile_first.2C_unobtrusive_JavaScript.2C_and_progressive_enhancement) and <http://designshack.net/articles/css/mobilefirst/> for some information about Mobile First.
+Some I’ve been working on totally rebuilding the login page. The focus has been on Mobile First. See [http://en.wikipedia.org/wiki/Responsive\_web\_design#Mobile\_first.2C\_unobtrusive\_JavaScript.2C\_and\_progressive\_enhancement](http://en.wikipedia.org/wiki/Responsive_web_design#Mobile_first.2C_unobtrusive_JavaScript.2C_and_progressive_enhancement) and [http://designshack.net/articles/css/mobilefirst/](http://designshack.net/articles/css/mobilefirst/) for some information about Mobile First.
 
 Instead of the “Mobile” login page I started developing awhile ago, that we planned on redirecting users to on mobile devices, we will now have a login page that works well in mobile devices, and still looks good on a desktop browser. I’ve also ripped out the old Javascript login code that was still mostly the Coova Chilli example code, and used jQuery to write simplier, cleaner code. This should remove most of the issues that mobile logins have previously had, both with javascript and with the design.
 

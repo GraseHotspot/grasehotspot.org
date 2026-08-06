@@ -19,7 +19,7 @@ post_format: []
 ---
 And finally, 3.8.0 is released! Here is a quick run down on what’s new!
 
-- New login page! See <https://grasehotspot.org/2014/05/20/new-login-coming-soon/> for more details. It’s mobile friendly, and looks great. Still can be fully customised like the previous page.
+- New login page! See [https://grasehotspot.org/2014/05/20/new-login-coming-soon/](https://grasehotspot.org/2014/05/20/new-login-coming-soon/) for more details. It’s mobile friendly, and looks great. Still can be fully customised like the previous page.
 - Free Access user. Auto creates an account for users. Also known as a ‘Just accept Terms of Service’ style login.
 - [See the Github Tracker for more details of what has changed! ](https://github.com/GraseHotspot/grase-www-portal/issues?q=milestone%3A3.8+is%3Aclosed)
 - [You can also look at the Changelog for more details](https://github.com/GraseHotspot/grase-www-portal/blob/3.8.0/debian/changelog)

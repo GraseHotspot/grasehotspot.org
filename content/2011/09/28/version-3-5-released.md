@@ -24,7 +24,7 @@ grase-www-portal (3.5.1) purewhite; urgency=low
 
  \* Editing of machine accounts is now active and working (accounts no longer “locked”)
 
- — Tim White <tim> Wed, 28 Sep 2011 11:53:41 +1000</tim>
+ — Tim White Wed, 28 Sep 2011 11:53:41 +1000
 
 grase-www-portal (3.5) natty; urgency=low
 

@@ -19,4 +19,4 @@ We are currently in the process of moving development to Github! The main change
 
 Hopefully the move to Github will assist with people writing patches, as they can submit merge requests to easily get the changes in, with minimal effort on my behalf working out what’s changed and if it breaks things.
 
-Head to <https://github.com/GraseHotspot> to see the repositories and start contributing!
+Head to [https://github.com/GraseHotspot](https://github.com/GraseHotspot) to see the repositories and start contributing!

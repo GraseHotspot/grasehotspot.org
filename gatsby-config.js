@@ -12,7 +12,6 @@ module.exports = {
     themeColor: `#8257E6`,
     basePath: `/`,
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
       resolve: 'gatsby-plugin-matomo',
@@ -23,42 +22,21 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/content`,
-      },
-    },
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          'gatsby-remark-check-links',
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 800,
-              withWebp: true,
-            },
-          },
-          {
-          resolve: "gatsby-remark-relative-links",
-          options: {
-            domainRegex: /http[s]*:\/\/[www.]*grasehotspot\.org[/]?/,
-          }
-        },
-
-        ]
-      }
-    },
-    {
       resolve: `@rocketseat/gatsby-theme-docs`,
       options: {
         configPath: `src/config`,
-        docsPath: `src/docs`,
+        docsPath: `content`,
+        homePath: `src/home`,
         repositoryUrl: `https://github.com/GraseHotspot/grasehotspot.org`,
         baseDir: ``,
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-relative-links`,
+            options: {
+              domainRegex: /http[s]*:\/\/[www.]*grasehotspot\.org[/]?/,
+            },
+          },
+        ],
       },
     },
     `gatsby-plugin-sitemap`,
@@ -72,7 +50,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        
         siteUrl: `https://grasehotspot.org`,
       },
     },

@@ -7,27 +7,29 @@
   "license": "MIT",
   "starter-name": "gatsby-starter-rocket-docs",
   "dependencies": {
-    "@rocketseat/gatsby-theme-docs": "^2.3.1",
-    "gatsby": "^3.0.4",
-    "gatsby-plugin-canonical-urls": "^3.0.0",
-    "gatsby-plugin-google-analytics": "^3.0.0",
-    "gatsby-plugin-manifest": "^3.0.0",
-    "gatsby-plugin-matomo": "^0.10.0",
-    "gatsby-plugin-offline": "^4.0.0",
-    "gatsby-plugin-remove-trailing-slashes": "^3.0.0",
-    "gatsby-plugin-sharp": "^3.9.0",
-    "gatsby-plugin-sitemap": "^3.3.0",
-    "gatsby-remark-check-links": "^2.1.0",
-    "gatsby-remark-images": "^5.6.0",
+    "@mdx-js/react": "^2.3.0",
+    "@rocketseat/gatsby-theme-docs": "^4.0.1",
+    "caniuse-lite": "^1.0.30001806",
+    "gatsby": "^5.16.1",
+    "gatsby-plugin-canonical-urls": "^5.16.0",
+    "gatsby-plugin-google-analytics": "^5.16.0",
+    "gatsby-plugin-manifest": "^5.16.0",
+    "gatsby-plugin-matomo": "^0.17.0",
+    "gatsby-plugin-offline": "^6.16.0",
+    "gatsby-plugin-remove-trailing-slashes": "^4.19.0",
+    "gatsby-plugin-sitemap": "^6.16.0",
     "gatsby-remark-relative-links": "0.0.3",
-    "gatsby-source-filesystem": "^3.9.0",
-    "gatsby-transformer-remark": "^4.6.0",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^6.3.0"
+  },
+  "overrides": {
+    "gatsby-plugin-remove-trailing-slashes": {
+      "gatsby": "$gatsby"
+    }
   },
   "keywords": [
     "gatsby",
@@ -35,10 +37,14 @@
     "gatsby-starter"
   ],
   "scripts": {
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby build",
-    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby develop",
-    "serve": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby serve",
-    "clean": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby clean",
-    "deploy": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby build && gh-pages -d public"
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public"
+  },
+  "allowScripts": {
+    "core-js@3.50.0": true,
+    "gatsby@5.16.1": true
   }
 }

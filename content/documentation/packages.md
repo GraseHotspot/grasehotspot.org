@@ -13,7 +13,7 @@ Packages
 
 All the components of the GRASE Hotspot are packaged into debian packages. (.deb). They reside in a repository that allows for easy installation and upgrading.
 
-To easily install the repository, download the latest grase-repo package from <http://packages.grasehotspot.org/pool/main/g/grase-repo/> and install it with `dpkg -i grase-repo_X_all.deb` (X represents the latest version).
+To easily install the repository, download the latest grase-repo package from [http://packages.grasehotspot.org/pool/main/g/grase-repo/](http://packages.grasehotspot.org/pool/main/g/grase-repo/) and install it with `dpkg -i grase-repo_X_all.deb` (X represents the latest version).
 
 You can then install the components that you require. Please see the[ installation page for a basic installation](/documentation/installation/ "Installation"). This page is intended to give you a better idea of what the packages contain.
 

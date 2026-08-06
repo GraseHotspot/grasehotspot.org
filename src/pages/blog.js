@@ -5,7 +5,7 @@ import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
 
 const IndexPage = ({
   data: {
-    allMarkdownRemark: { edges },
+    allMdx: { edges },
   },
 }) => {
   const Posts = edges
@@ -21,7 +21,7 @@ const IndexPage = ({
 export default IndexPage
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMdx(sort: { frontmatter: { date: DESC } }) {
       edges {
         node {
           id

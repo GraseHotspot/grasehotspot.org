@@ -27,8 +27,8 @@ sudo apt remove --purge grase-conf-openvpn
 
 Alternatives include:
 
-- <https://www.zerotier.com/>
-- <https://www.freelan.org/>
-- <https://www.softether.org/>
+- [https://www.zerotier.com/](https://www.zerotier.com/)
+- [https://www.freelan.org/](https://www.freelan.org/)
+- [https://www.softether.org/](https://www.softether.org/)
 
 Hopefully, one of these options will give you a better experience and will allow me more time and energy to focus on the core of the GRASE Hotspot instead of support services.

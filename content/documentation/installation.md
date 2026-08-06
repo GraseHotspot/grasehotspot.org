@@ -17,7 +17,7 @@ Install Ubuntu Server to computer (the guide is for an older version of Ubuntu, 
 
 If you didn’t follow the Ubuntu Server install instructions, or have installed a GUI, please check the [Hardware Setup](https://grasehotspot.org/documentation/hardware-setup/ "Hardware Setup") page for some important information about the network card setup.
 
-When it boots you will be presented with a prompt. Login with the username and password you set. Download latest grase-repo package from <http://packages.grasehotspot.org/pool/main/g/grase-repo/>  
+When it boots you will be presented with a prompt. Login with the username and password you set. Download latest grase-repo package from [http://packages.grasehotspot.org/pool/main/g/grase-repo/](http://packages.grasehotspot.org/pool/main/g/grase-repo/)  
 e.g. (Update to point to the latest grase-repo package at the above link)
 
 ```shell
@@ -44,7 +44,7 @@ $ sudo apt-get install grase-www-portal grase-conf-freeradius
 
 This will proceed to download all the dependencies as well and install them. It will ask a few questions which are needed to finish setting it up. See the below sections for answering these questions
 
-If you have issues installing coova-chilli, see <http://support.rstudio.org/help/kb/advanced/installing-openssl-098-on-debian-7-wheezy> for more information on installing libssl0.9.8
+If you have issues installing coova-chilli, see [http://support.rstudio.org/help/kb/advanced/installing-openssl-098-on-debian-7-wheezy](http://support.rstudio.org/help/kb/advanced/installing-openssl-098-on-debian-7-wheezy) for more information on installing libssl0.9.8
 
 ### Configuring grase-conf-freeradius
 
@@ -63,7 +63,7 @@ Install finished
 
 This should have installed the base system, and submit the systems key to a central server for remote admin. (But not the remote admin user setup, that will have to come later at this stage).
 
-You should now be able to access the web interface at <http://10.1.0.1/grase/radmin> (from the LAN side). The LAN side is the network interface you are running your WiFi Access Point off.  
+You should now be able to access the web interface at [http://10.1.0.1/grase/radmin](http://10.1.0.1/grase/radmin) (from the LAN side). The LAN side is the network interface you are running your WiFi Access Point off.  
 Default username is ***admin*** and password is ***hotspotadmin***
 
 **Please post support requests to the [mailing list](https://grasehotspot.org/support/mailing-list/ "Mailing List"), this way the whole community can assist with answering your questions.**

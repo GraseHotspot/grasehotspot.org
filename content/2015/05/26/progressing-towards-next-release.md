@@ -14,7 +14,7 @@ post_format: []
 ---
 With a burst of energy, I’ve found time again to work on trying to get the work done out as a stable release! Thanks to everyone who is testing the nightly builds.
 
-I’ve also realised that people don’t realise how much you can customise the login screen. Have a look at <https://github.com/GraseHotspot/grase-www-portal/wiki/Login-Page-Customisation-Examples> for some examples! If you have an awesome customised login page, please add a screenshot! I’ve also written some details about how you customise the login screen <https://github.com/GraseHotspot/grase-www-portal/wiki/Customising-Login-Page>
+I’ve also realised that people don’t realise how much you can customise the login screen. Have a look at [https://github.com/GraseHotspot/grase-www-portal/wiki/Login-Page-Customisation-Examples](https://github.com/GraseHotspot/grase-www-portal/wiki/Login-Page-Customisation-Examples) for some examples! If you have an awesome customised login page, please add a screenshot! I’ve also written some details about how you customise the login screen [https://github.com/GraseHotspot/grase-www-portal/wiki/Customising-Login-Page](https://github.com/GraseHotspot/grase-www-portal/wiki/Customising-Login-Page)
 
 Hopefully in the next week or so, I’ll have ironed out all the bugs stopping the release, and we’ll move on to release candidates on the dev channel!
 
