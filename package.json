@@ -16,7 +16,6 @@
     "gatsby-plugin-manifest": "^5.16.0",
     "gatsby-plugin-matomo": "^0.17.0",
     "gatsby-plugin-offline": "^6.16.0",
-    "gatsby-plugin-remove-trailing-slashes": "^4.19.0",
     "gatsby-plugin-sitemap": "^6.16.0",
     "gatsby-remark-relative-links": "0.0.3",
     "prop-types": "^15.8.1",
@@ -26,19 +25,14 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "overrides": {
-    "gatsby-plugin-remove-trailing-slashes": {
-      "gatsby": "$gatsby"
-    }
-  },
   "keywords": [
     "gatsby",
     "rocketseat",
     "gatsby-starter"
   ],
   "scripts": {
-    "build": "gatsby build",
-    "start": "NODE_OPTIONS=--max-old-space-size=4096 gatsby develop",
+    "build": "NODE_OPTIONS=\"--disable-warning=DEP0169\" gatsby build",
+    "start": "NODE_OPTIONS=\"--max-old-space-size=4096 --disable-warning=DEP0169\" gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public"

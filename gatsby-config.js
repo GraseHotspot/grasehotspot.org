@@ -1,5 +1,6 @@
 module.exports = {
   //pathPrefix: "/grasehotspot.org",
+  trailingSlash: `never`,
   siteMetadata: {
     siteTitle: `Grase Hotspot`,
     defaultTitle: `Grase Hotspot`,
@@ -46,7 +47,6 @@ module.exports = {
     //     trackingId: `YOUR_ANALYTICS_ID`,
     //   },
     // },
-    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {

@@ -129,9 +129,9 @@ Markdown:
 - **`sharp`/`lmdb`/`@parcel` native module errors on install** — the install
   scripts may have been blocked (npm >= 11). Run
   `npm approve-scripts --all && npm install`.
-- **`gatsby-plugin-remove-trailing-slashes` version** — v4 is pinned in
-  `package.json` with an `overrides` entry forcing its Gatsby peer dependency
-  to the installed Gatsby 5 (`$gatsby`). Do not remove this override.
+- **`gatsby-plugin-remove-trailing-slashes`** — no longer used. The site's
+  `trailingSlash: 'never'` in `gatsby-config.js` (Gatsby 5's native option)
+  replaces the old Gatsby-4-only plugin and its npm `overrides` workaround.
 - **LMDB segfault in an Incus container** — see the `.cache` bind mount
   section above.
 - **`gatsby develop` runs out of memory (`FATAL ERROR: ... heap out of
@@ -140,3 +140,10 @@ Markdown:
   already raises it (`NODE_OPTIONS=--max-old-space-size=4096`); if you run
   `gatsby develop` directly, set the same. `gatsby build` is unaffected because
   it processes images in worker threads.
+- **Misleading `ERROR UNKNOWN` plus `[DEP0169] url.parse()` deprecation** —
+  Gatsby 5's own code calls the legacy `url.parse()`, which Node 24 flags. The
+  warning is harmless; the scripts set `--disable-warning=DEP0169` to keep the
+  logs clean.
+- **`gatsby-remark-embedder` / `gatsby-plugin-react-helmet` incompatibility
+  warnings** — these come from `@rocketseat/gatsby-theme-docs`'s own
+  dependencies and cannot be fixed without forking the theme; they are benign.
