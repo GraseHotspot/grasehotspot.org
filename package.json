@@ -38,7 +38,7 @@
   ],
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop",
+    "start": "NODE_OPTIONS=--max-old-space-size=4096 gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public"

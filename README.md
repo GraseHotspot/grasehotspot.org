@@ -37,8 +37,10 @@ be re-created after every container restart.
 ```sh
 cd /path/to/grasehotspot.org
 
-# one-time setup of the backing directory (any writable ext4 dir works)
-mkdir -p ~/.cache/grasehotspot-gatsby
+# one-time setup of the backing directory (any writable ext4 dir works).
+# If the container was rebuilt, ~/.cache may be missing or root-owned:
+sudo mkdir -p ~/.cache/grasehotspot-gatsby
+sudo chown -R $USER:$USER ~/.cache
 
 # create .cache if it doesn't exist yet (it is gitignored)
 mkdir -p .cache
@@ -132,3 +134,9 @@ Markdown:
   to the installed Gatsby 5 (`$gatsby`). Do not remove this override.
 - **LMDB segfault in an Incus container** — see the `.cache` bind mount
   section above.
+- **`gatsby develop` runs out of memory (`FATAL ERROR: ... heap out of
+  memory`)** — the site's ~79 images make `gatsby-plugin-sharp` exceed Node's
+  default ~2 GB heap while building the development bundle. The `start` script
+  already raises it (`NODE_OPTIONS=--max-old-space-size=4096`); if you run
+  `gatsby develop` directly, set the same. `gatsby build` is unaffected because
+  it processes images in worker threads.
