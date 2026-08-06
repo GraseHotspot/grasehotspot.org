@@ -9,7 +9,7 @@ theme (MDX v2). The production site is deployed to GitHub Pages from
 
 ## Requirements
 
-- **Node.js 18 or 20** (Gatsby 5's supported versions; CI pins Node 20).
+- **Node.js 18 or 20** (Gatsby 5's supported versions; CI pins Node 22).
 - npm. On npm >= 11 install scripts are blocked by default, which breaks the
   native modules Gatsby needs. If the install leaves native modules broken
   (e.g. Parcel/SWC, sharp, lmdb), run `npm approve-scripts --all` and then
@@ -93,7 +93,7 @@ npm run deploy   # gatsby build && gh-pages -d public
 ```
 
 Production deploys run automatically through the GitHub Actions workflow
-`.github/workflows/gatsby.yml` (Node 20, `npm ci`, `PREFIX_PATHS: 'true'`),
+`.github/workflows/gatsby.yml` (Node 22, `npm ci`, `PREFIX_PATHS: 'true'`),
 which uploads `public/` to GitHub Pages.
 
 ## Site structure
